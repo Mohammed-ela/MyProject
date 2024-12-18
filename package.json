@@ -44,5 +44,11 @@
   },
   "engines": {
     "node": ">=18"
+  },
+  "jest": {
+    "preset": "react-native",
+    "setupFilesAfterEnv": [
+      "@testing-library/react-native/jest-preset.js"
+    ]
   }
 }
